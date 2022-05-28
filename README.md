@@ -6,7 +6,7 @@ alkalmazásában. A logisztikai cég szállítási terveket (TransportPlan) kés
 szállítmányt milyen szakaszokon (Section) keresztül, milyen mérföldköveket (Milestone) érintve terveznek kiszállítani.
 
 ### REST végpontok:
-
+A végpontok
                    - POST/api/addresses: Új címet hoz létre az adatbázisban. A kérés törzsében az Addressentitás mezőinek
                     megfelelő propertykkelrendelkező JSON objektumot vár
 
