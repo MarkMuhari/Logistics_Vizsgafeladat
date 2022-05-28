@@ -39,9 +39,9 @@ szállítmányt milyen szakaszokon (Section) keresztül, milyen mérföldköveke
                             között legyen megadható. A határok, aholnőa levonandó százelékos arány: 30perc, 60perc, 120perc
 
 ### Tesztek és Spring Security
-    Az utolsó végponthoz integrációs tesztek létrehozása.
+Az utolsó végponthoz integrációs tesztek létrehozása.
 
-    Spring Security segítségével valósíts meg autentikációt és autorizációt az alábbimódon:
+Spring Security segítségével valósíts meg autentikációt és autorizációt az alábbimódon:
     •Egy/api/login POST végpont helyes felhasználónév-jelszó páros esetén1 0 percigérvényesJWT tokent ad vissza, amely
     tartalmazza a usernevet és a user jogosultságait.
     •Csak AddressManager jogosultság birtokában érhetők el a cím létrehozó, módosító és törlő végpontok.
