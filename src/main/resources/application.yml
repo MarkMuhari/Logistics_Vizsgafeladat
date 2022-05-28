@@ -1,0 +1,27 @@
+logging:
+    level:
+        org:
+            springframework:
+                security: debug
+
+logistics:
+    revenueDropPercentage:
+        delayOf120Minutes: 30
+        delayOf30Minutes: 10
+        delayOf60Minutes: 20
+spring:
+    datasource:
+        password: Balhe89
+        url: jdbc:postgresql://localhost:8081/logistics
+        username: postgres
+    jpa:
+        hibernate:
+            ddl-auto: create
+        open-in-view: false
+        show-sql: false
+    mvc:
+        format:
+            date: yyyy-MM-dd
+            date-time: yyyy-MM-dd HH:mm:ss
+            time: HH:mm:ss
+
