@@ -37,7 +37,7 @@ A végpontok
           mérföldkövének tervezett idejét növeld a késés hosszával!
         - A szállítási tervhez tárolt várható bevételt a késés miatt néhány százalékkal csökkenteni
           kell. Hogy hány perces késéshez hány százalékos csökkentés szükséges, az alkalmazás propertyk
-          között legyen megadható. A határok, aholnőa levonandó százelékos arány: 30perc, 60perc, 120perc
+          között legyen megadható. A határok, ahol nő a levonandó százelékos arány: 30perc, 60perc, 120perc
 
 ### Tesztek és Spring Security
 Az utolsó végponthoz integrációs tesztek létrehozása.
